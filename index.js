@@ -14,7 +14,7 @@ dbConnection();
 app.use(cors()); 
 
 //Directorio publico
-app.use(express.static('public'));
+app.use( express.static('public') );
 
 //lectura y parseo del body
 app.use(express.json());
